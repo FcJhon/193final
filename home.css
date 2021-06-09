@@ -8,7 +8,7 @@
  }
 header{
     
-    height:200px;
+    height:150px;
     background:url(header.jpg) no-repeat center;
     background-size:cover;
     border-radius:50px;
@@ -16,10 +16,11 @@ header{
 
 .title{
     text-align:center;
-    padding-top:110px;
+    padding-top:100px;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 40px;
     font-weight: bold;
+    
 }
 .title span{
     color:red;
@@ -41,11 +42,12 @@ header{
 }
 
 .aimg{
-    height:500px;
-    width:500px;
-    margin-left:70px;
+    height:400px;
+    width:400px;
+    margin-left:130px;
     margin-top:70px;
     border-radius: 50%;
+    object-fit:cover;
 }
 
 .text2{

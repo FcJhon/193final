@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt</title>
+    <link rel="stylesheet" href="adopt.css">
+    <script src="checkForm.js" async></script>
+</head>
+<body>
+    <header>
+        <p class="title">Adopt, don't <span>buy</span>.</p>
+    </header>
+
+    <div class="main">
+        <form  >
+            <fieldset>
+                <legend>Adoption Form </legend>
+
+                <label  for="fullname">Full Name:</label> <br>
+                <input type="text" id="fullname" name="fullname" > <br>
+
+                
+
+                <label  for="address">Address:</label> <br>
+                <input type="text" id="address" name="address" > <br>
+
+                <label  for="phone">Phone Number:</label> <br>
+                <input type="text" id="phone" name="phone" > <br>
+
+
+
+                <label  for="birthday">Birthday:</label> <br>
+                <input type="date" id="birthday" name="birthday" > <br>
+
+                <label for="reason">Why do you want to adopt:</label> <br>
+                <textarea name="reason" id="reason" cols="20" rows="5"></textarea>
+
+                <p>What kind of pet do you want adopt :</p>
+                <label >
+                    <input type="radio" name="type" value="Dog" required>Dog
+                </label>
+                <label >
+                    <input type="radio" name="type" value="Cat" >Cat
+                </label>
+
+                <p>Have you ever had a pet before :</p>
+                <label >
+                    <input type="radio" name="ever" value="yes" required>Yes
+                </label>
+                <label >
+                    <input type="radio" name="ever" value="no" >No
+                </label>
+                
+                <div id="error"></div>
+
+                <input type="submit" class='btn' id="submit" value="Submit">
+
+            </fieldset>
+            
+        </form>
+
+        <div class="nav">
+            
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Donate</a>
+                </li>
+            </ul>
+
+        </div>
+
+        
+
+    </div>
+
+    <footer>
+        <p>Phone:
+            <a href="tel:123456789">123-456-789</a>
+        </p>
+        <p>E-mail:
+            <a href="mailto:123@adoptme.gmail">123@adoptme.gmail</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
