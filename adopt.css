@@ -65,17 +65,13 @@ fieldset{
     font-weight: bold;
     font-size: 20px;
 }
-.main  input{
-    margin-left:50px;
-}
+
 
 .main p{
     padding-top:10px;
 }
 
-.name{
-    margin-top:10px;
-}
+
 
 .btn{
     padding:16px 32px;
@@ -120,7 +116,7 @@ fieldset{
     list-style-type: none;
 }
 
-#error ul li{
+#error {
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 20px;
