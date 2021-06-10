@@ -91,8 +91,8 @@ fieldset{
 
 .nav li{
     list-style: none;
-    display: inline-block;
-    
+    padding-right:50px;
+
 }
 .nav{
     text-align:center;
@@ -121,4 +121,8 @@ fieldset{
     font-weight: bold;
     font-size: 20px;
     color:red;
+}
+
+.error{
+    border-color:red;
 }
